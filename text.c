@@ -5,6 +5,12 @@
     > Created Time: 2019年10月29日 星期二 17时35分53秒
  ************************************************************************/
 
-#include<stdio.h>
 
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello, world!" << endl;
+    return 0;
+}
 
