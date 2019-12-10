@@ -1,0 +1,17 @@
+#目标文件：依赖文件
+#TAB指
+
+TARGET=test (替换) 变量
+CC ：= gcc (常量)
+obj = **.o
+
+$(TARGET):$(obj)
+		$(CC) -c  $(obj) -o $(TARGET)
+		$(CC) -c $@ -o $^
+
+$(TARGET) 引用
+%.c 任意.c文件 *.c 所有的.c文件
+%.c:%.o
+$(CC) -c %.c -o %.o --> gcc -c xx.c -o xx.o
+$@ 所有的目标文件 $^所有的依赖文件 $< 所有依赖文件的第一个文件 #>
+
