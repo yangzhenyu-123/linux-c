@@ -1,0 +1,10 @@
+git clone 项目地址  拉项目
+git pull    拉代码
+git push  提交到仓库
+git init指令初始化一个git仓库
+git add .添加文件
+git commit -m "注释"提交至仓库。
+git remote add origin https://git.oschina.net/你的用户名/项目名.
+git，git push origin master即可完成推送
+git checkout master   切换到master分支
+This is a git repo!
