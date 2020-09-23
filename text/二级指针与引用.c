@@ -295,8 +295,8 @@ int main()
     ListTraverse(L);
 
     printf("销毁链表\n");
-    DestroyList1(L);   //一级指针方式销毁链表，失败,且出现满屏乱码
-    //DestroyList2(&L);  //二级指针方式销毁链表，成功
+    //DestroyList1(L);   //一级指针方式销毁链表，失败,且出现满屏乱码
+    DestroyList2(&L);  //二级指针方式销毁链表，成功
     //DestroyList3(L);     //一级指针引用方式销毁链表，成功
     ListTraverse(L);
 
